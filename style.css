@@ -64,6 +64,176 @@ body
 {
     background: linear-gradient(315deg,#4dff03,#00d0ff);
 }
+.card:nth-child(5)::before,
+.card:nth-child(5)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(6)::before,
+.card:nth-child(6)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(8)::before,
+.card:nth-child(8)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(9)::before,
+.card:nth-child(9)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(11)::before,
+.card:nth-child(11)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(12)::before,
+.card:nth-child(12)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(14)::before,
+.card:nth-child(14)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(15)::before,
+.card:nth-child(15)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(17)::before,
+.card:nth-child(17)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(18)::before,
+.card:nth-child(18)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(20)::before,
+.card:nth-child(20)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(21)::before,
+.card:nth-child(21)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(23)::before,
+.card:nth-child(23)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(24)::before,
+.card:nth-child(24)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(26)::before,
+.card:nth-child(26)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(27)::before,
+.card:nth-child(27)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(29)::before,
+.card:nth-child(29)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(30)::before,
+.card:nth-child(30)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(32)::before,
+.card:nth-child(32)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(33)::before,
+.card:nth-child(33)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(35)::before,
+.card:nth-child(35)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(36)::before,
+.card:nth-child(36)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(38)::before,
+.card:nth-child(38)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(39)::before,
+.card:nth-child(39)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(41)::before,
+.card:nth-child(41)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(42)::before,
+.card:nth-child(42)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(44)::before,
+.card:nth-child(44)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(45)::before,
+.card:nth-child(45)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(47)::before,
+.card:nth-child(47)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(48)::before,
+.card:nth-child(48)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(50)::before,
+.card:nth-child(50)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(51)::before,
+.card:nth-child(51)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+.card:nth-child(53)::before,
+.card:nth-child(53)::after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+.card:nth-child(54)::before,
+.card:nth-child(54)::after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
 .card span
 {
     position: absolute;

@@ -36,6 +36,7 @@ function onLoad() {
 }
 document.getElementById('search-btn').addEventListener('click',(event)=>{
     searchdetail.style.display='flex';
+    outputfav.style.display='none';
     var name =searchinput.value;
     fetch(`https://api.jikan.moe/v3/search/anime?q=${name}`)
 	.then((response) => {
