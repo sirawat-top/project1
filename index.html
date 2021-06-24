@@ -8,19 +8,20 @@
     <title>Hello, world!</title>
   </head>
   <body onload="onLoad()">
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
+                <a class="nav-link active" aria-current="page" href="#" id="home" style="color: #ff0058;">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" id="fav">My anime</a>
+                <a class="nav-link" href="#" id="fav" style="color: #ff0058;">My anime</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -38,25 +39,37 @@
          <div class="row" id="outputfav"></div>
 
        </div>
-       <div class="container" style="display: none;" id="detaillist">
-           <img src="" alt="" id="imgdetail">
-           <div class="d-flex">
-            <p>Title:</p>
+       <div class="detail-container" style="display: none;" id="detaillist">
+        <div class="card" style="width: 18rem;">
+          <span></span>
+          <div class="card-body">
+            <img src="" class="card-img-top" alt="" id="imgdetail">
+            <div class="d-flex">
+            <p class="card-text">Title:</p>
             <div class="id" id="nameid"></div>
-           </div>
-           <div class="d-flex">
-             <p>Type:</p>
-            <div class="type" id="type"></div>
-           </div>
-           <div class="d-flex">
-             <p>EP:</p>
-           <div class="episodesdetail" id="episodesdetail"></div>
-          </div>
-          <div class="d-flex">
-            <p>Score:</p>
+            </div>
+            <div class="d-flex">
+              <p class="card-text">Synopsis:</p>
+              <div class="Synopsis" id="syn"></div>
+              </div>
+            <div class="d-flex">
+              <p class="card-text">Type:</p>
+              <div class="type" id="type"></div>
+            </div>
+            <div class="d-flex">
+              <p>EP:</p>
+              <div class="episodesdetail" id="episodesdetail"></div>
+            </div>
+            <div class="d-flex">
+              <p>Score:</p>
             <div class="scoredetail" id="scoredetail"></div>
+            </div>
+
+            <button type="button" id="backtofav">back</button> 
           </div>
-           <button type="button" id="backtofav">back</button> 
+           
+        </div>
+           
        </div>
       </div>
 

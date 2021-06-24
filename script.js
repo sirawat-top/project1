@@ -17,6 +17,7 @@ function createData(index){
         addfav(index)
         refrech()
     })
+    let span=document.createElement('span')
     let img = document.createElement('img')
     img.setAttribute('src',index.image_url)
     let div2=document.createElement("div")
@@ -24,8 +25,9 @@ function createData(index){
     let p=document.createElement("p")
     p.classList.add('card-text')
     p.innerHTML=index.synopsis
+    div2.appendChild(img)
     div2.appendChild(p)
-    div.appendChild(img)
+    div.appendChild(span)
     div.appendChild(div2)
     searchdetail.appendChild(div)
 }
@@ -99,6 +101,7 @@ function createfav(index){
     let div =document.createElement("div")
     div.classList.add('card')
     div.setAttribute('style','width: 18rem;')
+    let span=document.createElement('span')
     let img = document.createElement('img')
     img.setAttribute('src',index.image_url)
     let div2=document.createElement("div")
@@ -125,10 +128,11 @@ function createfav(index){
         deleteani(index.id)
         }
     })
+    div2.appendChild(img)
     div2.appendChild(p)
+    div.appendChild(span)
     div2.appendChild(button)
     div2.appendChild(buttondelete)
-    div.appendChild(img)
     div.appendChild(div2)
     outputfav.appendChild(div)
 }
@@ -166,6 +170,7 @@ function detail(id){
             document.getElementById('type').innerHTML=data.type
             document.getElementById('episodesdetail').innerHTML=data.episodes
             document.getElementById('scoredetail').innerHTML=data.score
+            document.getElementById('syn').innerHTML=data.synopsis
             document.getElementById('imgdetail').src=data.image_url
             
     }).catch( error => 
